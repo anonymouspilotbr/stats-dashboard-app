@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { HeaderComponent } from './header/header.component';
 import { DashServerStatusComponent } from './dashboard-server-status/dashboard-server-status.component';
+import { ServerTrafficComponent } from "./server-traffic/server-traffic.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HeaderComponent, DashServerStatusComponent],
+  imports: [HeaderComponent, DashServerStatusComponent, ServerTrafficComponent],
   templateUrl: './app.component.html',
 })
 export class AppComponent {
