@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { dummyTrafficData } from '../dummyTrafficData.model';
+import { dummyTrafficData } from '../../dummyTrafficData.model';
 
 @Component({
   selector: 'app-server-traffic',
