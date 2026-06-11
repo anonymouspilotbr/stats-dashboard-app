@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-server-status',
@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   templateUrl: './dashboard-server-status.component.html',
   styleUrl: './dashboard-server-status.component.css'
 })
-export class DashServerStatusComponent {
+export class DashServerStatusComponent implements OnInit {
   currentStatus: 'online' | 'offline' | 'unknown' = 'online';
 
   constructor () {}
